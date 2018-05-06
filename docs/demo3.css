@@ -1,0 +1,11 @@
+/* 縦向きのスタイル */
+@media (orientation: portrait) {
+  body { background-color: orange; }
+  h1:after { content: "縦向き"; }
+}
+
+/* 横向きのスタイル */
+@media (orientation: landscape) {
+  body { background-color: skyblue; }
+  h1:after { content: "横向き"; }
+}

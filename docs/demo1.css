@@ -1,0 +1,11 @@
+/* 768px以下 */
+@media (max-width: 768px) {
+  body { background-color: orange; }
+  h1:after { content: "768px以下"; }
+}
+
+/* 769px以上 */
+@media (min-width: 769px) {
+  body { background-color: skyblue; }
+  h1:after { content: "769px以上"; }
+}
