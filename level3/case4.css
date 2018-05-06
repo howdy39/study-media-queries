@@ -1,0 +1,9 @@
+/* screen かつ 768px以下 */
+@media screen and (max-width: 768px) {
+  h1:after { content: "screen かつ 768px以下"; }
+}
+
+/* screen または print */
+@media screen, print {
+  h2:after { content: "screen または print"; }
+}

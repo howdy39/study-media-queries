@@ -1,0 +1,3 @@
+/* 768px以上 */
+body { background-color: skyblue; }
+h1:after { content: "768px以上"; }
